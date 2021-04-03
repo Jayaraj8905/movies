@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { useEffect, useState } from 'react';
@@ -22,7 +21,7 @@ const App = () =>  {
   }, []);
 
   return (
-    <div className="container-fluid">
+    <div className="movies container-fluid">
       <div className="row">
         <MoviesList movies={movies}></MoviesList>
       </div>
