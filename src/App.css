@@ -9,6 +9,8 @@ body {
 }
 
 .image-holder {
+  min-width: 300px;
+  min-height: 300px;
 	position: relative;
 	transition: transform 0.2s;
 }
